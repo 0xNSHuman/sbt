@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
 import "./ISBT.sol";
 
 // Quick-n-dirty example of EIP-69420 implementation.
-// Untested and never used! Don't use it as it or you'll get rekt.
+// Untested and never used! Don't use it as is or you'll get rekt.
 
 contract SBT is ISBT {
 	// The boring stuff similar to the established token standards

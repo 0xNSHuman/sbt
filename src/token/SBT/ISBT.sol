@@ -1,8 +1,7 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
 // EIP-69420: A Dumbed-Down SBT Standard
-// Author: @ns_human
 
 interface ISBT {
 	event Issue(address indexed issuer, address indexed holder, uint256 indexed tokenId);
